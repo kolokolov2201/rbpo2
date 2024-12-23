@@ -12,6 +12,8 @@ import ru.mtuci.rbpo_2024_praktika.service.ProductService;
 
 import java.util.List;
 
+//TODO: 1. Дать пользователю возможность получить список продуктов
+
 @RestController
 @RequestMapping("/products")
 @RequiredArgsConstructor
