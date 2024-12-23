@@ -8,6 +8,8 @@ import javax.crypto.spec.SecretKeySpec;
 import java.util.Base64;
 import java.util.Date;
 
+//TODO: 1. computeHmac - отсутствует механизм генерации цифровой подписи. Вы генерируете просто хэш. Как клиент проверит его?
+
 @Component
 public class TicketGenerator {
 

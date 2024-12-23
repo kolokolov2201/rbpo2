@@ -13,6 +13,7 @@ import ru.mtuci.rbpo_2024_praktika.service.UserService;
 import java.util.List;
 import java.util.Random;
 
+//TODO: 1. Нельзя самим генерировать mac-адрес. Получаем только от клиента и никак иначе
 
 @Service
 @RequiredArgsConstructor

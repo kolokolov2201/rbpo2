@@ -12,6 +12,8 @@ import ru.mtuci.rbpo_2024_praktika.service.LicenseTypeService;
 
 import java.util.List;
 
+//TODO: 1. Дать пользователю возможность получить список типов лицензий
+
 @RestController
 @RequestMapping("/licensetypes")
 @RequiredArgsConstructor
